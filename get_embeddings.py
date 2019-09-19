@@ -53,6 +53,7 @@ model = model_class.from_pretrained('./directory/to/save/')  # re-load
 tokenizer.save_pretrained('./directory/to/save/')  # save
 tokenizer = tokenizer_class.from_pretrained('./directory/to/save/')  # re-load
 
+'''
 # SOTA examples for GLUE, SQUAD, text generation...
 Quick tour of the fine-tuning/usage scripts
 The library comprises several example scripts with SOTA performances for NLU and NLG tasks:
@@ -272,3 +273,4 @@ for batch in train_data:
     optimizer.step()
     scheduler.step()
     optimizer.zero_grad()
+    '''
